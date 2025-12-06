@@ -6,8 +6,8 @@ circle = 0 # accumulator variable
 not_circle = 0 # accumulator variable
 
 for i in range(N):
-    x = random.uniform(-1, 1)
-    y = random.uniform(-1, 1)
+    x = random.uniform(0, 1)
+    y = random.uniform(0, 1)
     r = math.sqrt(x**2 + y**2)
 
     if r < 1:
